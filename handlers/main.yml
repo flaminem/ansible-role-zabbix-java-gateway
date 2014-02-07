@@ -1,0 +1,3 @@
+---
+- name: restart zabbix java gateway
+  service: name=zabbix-java-gateway state=restarted

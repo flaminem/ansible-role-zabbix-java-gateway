@@ -1,4 +1,11 @@
-ansible-role-zabbix-java-gateway
-================================
+# Ansible Zabbix Java Gateway  Role
 
-Ansible Role for Zabbix Java Gateway
+Installing and configuration of the Zabbix java gateway. Uses packages from http://www.zabbix.com.
+
+## Usage
+    ---
+    - hosts: all
+      remote_user: root
+      gather_facts: yes
+      roles:
+      - zabbix-java-gateway
