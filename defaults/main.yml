@@ -1,6 +1,6 @@
 ---
-zabbix_java_gateway_config_listen_port: 10052
 zabbix_java_gateway_config_listen_ip: 0.0.0.0
+zabbix_java_gateway_config_listen_port: 10052
 zabbix_java_gateway_config_pid_file: "/var/run/zabbix/zabbix_java_gateway.pid"
 zabbix_java_gateway_config_start_pollers: 5
 
