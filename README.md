@@ -1,4 +1,4 @@
-# Ansible Zabbix Java Gateway  Role
+# Ansible Zabbix Java Gateway Role (Discontinuited : integrated to zabbix server role)
 
 Installing and configuration of the Zabbix java gateway. Uses packages from http://www.zabbix.com.
 
@@ -9,3 +9,4 @@ Installing and configuration of the Zabbix java gateway. Uses packages from http
       gather_facts: yes
       roles:
       - zabbix-java-gateway
+
